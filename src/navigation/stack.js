@@ -20,16 +20,16 @@ const Appstack = () => {
       screenOptions={{
         headerShown: false
       }}>
-        <Stack.Screen name='startscreen' component={StartScreen} />
-        <Stack.Screen name='homescreen' component={HomeScreen} />
-        <Stack.Screen name='balance' component={IncomeScreen} />
-        <Stack.Screen name='expenses' component={ExpensesScreen} />
-        <Stack.Screen name='incomesource' component={IncomeSourceScreen} />
-        <Stack.Screen name='expensessource' component={ExpenseSourceScreen} />
-        <Stack.Screen name='recentactivity' component={RecentActivity} />
-        <Stack.Screen name='addincome' component={AddIncome} />
-        <Stack.Screen name='tasks' component={TasksScreen} />
-        <Stack.Screen name='profile' component={ProfileScreen} />
+      <Stack.Screen name="startscreen" component={StartScreen} />
+      <Stack.Screen name="homescreen" component={HomeScreen} />
+      <Stack.Screen name="balance" component={IncomeScreen} />
+      <Stack.Screen name="expenses" component={ExpensesScreen} />
+      <Stack.Screen name="incomesource" component={IncomeSourceScreen} />
+      <Stack.Screen name="expensessource" component={ExpenseSourceScreen} />
+      <Stack.Screen name="recentactivity" component={RecentActivity} />
+      <Stack.Screen name="addincome" component={AddIncome} />
+      <Stack.Screen name="tasks" component={TasksScreen} />
+      <Stack.Screen name="profile" component={ProfileScreen} />
     </Stack.Navigator>
   );
 };
